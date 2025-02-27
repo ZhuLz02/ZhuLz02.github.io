@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default"
-title                    : "更多联系方式→"
+title                    : "更多方式认识我→"
 title_separator          : "-"
 name                     : &name "夏沫樱花雨彡"
 description              : &description "personal description"
