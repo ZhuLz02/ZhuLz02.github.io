@@ -91,7 +91,7 @@ redirect_from:
 ------
 
 
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![玲芽之旅](/images/editing-talk.png)
 For more info
 ------
 
