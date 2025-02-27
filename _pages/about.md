@@ -61,11 +61,37 @@ redirect_from:
 </div>
 如果愤怒可以换来胜利，世界上早就没有失败这个词了。[东方求败](https://baike.sogou.com/v31128556.htm)
 ------
+
+
+命运就是一只掉进鸡窝里的凤凰，如果你梦想成为一只凤凰的话，就不要放弃。或许，你本来就是一只凤凰。 [赤焰尘风](https://baike.sogou.com/v169806505.htm)
+------
+
+
+这世上有一种人，虽然是人，可他们从来没有过过属于自己的生活，他们的一切都在遵照他人的意思而活，这种人千古以前就有，千古以后还是不会消失，因为他们的心灵早就被枷锁禁锢了，就算你解开奴隶身上的枷锁，但是能解开他们心灵上的枷锁吗？ [鲸鲨王](https://baike.sogou.com/v52438970.htm)
+------
+
+
+胜利能带来喜悦，荣誉能带来尊敬，可有一样东西比都要重要得多，那就是——生命！ [龙飞](https://baike.sogou.com/v64318318.htm)
+------
+
+
+我猛虎王南征北战一辈子，眼里只有胜利，也一直以为只有胜利才是最珍贵的东西。可是，在我走投无路，最绝望的时候，我才知道，原来我错了，世界上最珍贵的，是朋友。 [猛虎王](https://baike.sogou.com/v7839015.htm)
+------
+
+
+我菠萝吹雪，吹的不是雪，是血，是我剑上的血。 [菠萝吹雪](https://baike.sogou.com/v41208291.htm)
+------
+
+
 我不是随便的人，可我随便起来不是人！ [陆小果](https://baike.sogou.com/v51052755.htm)
 ------
+
+
+我小时候也曾相信一分耕耘一分收获这个道理，可出来社会才发现这都是骗人的鬼话。[小果叮](https://baike.sogou.com/v55483931.htm)
+------
+
+
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
-
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
