@@ -9,13 +9,13 @@ main:
     url: "http://steamcommunity.com/profiles/76561198860946247/"
 
   - title: "网易云音乐"
-    url: /https://y.music.163.com/m/user?id=348000239/    
+    url: "https://y.music.163.com/m/user?id=348000239/"    
 
   - title: "QQ"
-    url: /https://qm.qq.com/q/dsOK4uDIDS/    
+    url: "https://qm.qq.com/q/dsOK4uDIDS/"    
     
   - title: "哔哩哔哩"
-    url: /https://m.bilibili.com/space/54870684/
+    url: "https://m.bilibili.com/space/54870684/"
         
   - title: "Blog Posts"
     url: /year-archive/
