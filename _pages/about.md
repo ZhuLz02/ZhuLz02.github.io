@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "If you're seeing this link, you either already know me or just got to know me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -59,6 +59,8 @@ redirect_from:
   }
 </style>
 </div>
+
+
 如果愤怒可以换来胜利，世界上早就没有失败这个词了。[东方求败](https://baike.sogou.com/v31128556.htm)
 ------
 
@@ -92,7 +94,9 @@ redirect_from:
 
 
 ![玲芽之旅](/images/editing-talk.png)
-For more info
-------
+![RE:0](/images/210.jpg)
 
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+# 此网页不定时开放 #
+以后就隔这口吐芬芳了
+------
+[不抽烟不喝酒不挺好的吗](https://m.baidu.com/bh/m/detail/ar_3998178098012361081)真的搞不懂，你说抽烟喝酒排忧解难，也不是非得靠这个，你说给国家烟草缴税，国家急着要你这点钱？还有个槟榔，都卖成保健品了，也不想多说。那些抽烟的![你不要过来啊！](https://tse1-mm.cn.bing.net/th/id/OIP-C.3CFE8OB_ew7KN_4K3glTxgHaFF?rs=1&pid=ImgDetMain)不想吸二手烟了啊，喝酒的也是，那不喝酒是别人的自由，这也算是文化风俗吗，特别是那些还喜欢念叨的，脑子都不清醒了，这谁听得进去，有说酒壮怂人胆，自欺欺人罢了，一点后果不考虑。也有说没朋友不喝酒会活得枯燥无味，这点我赞同，但是我只要活在自己的世界里就好了
