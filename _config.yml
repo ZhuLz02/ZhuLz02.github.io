@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "夏沫樱花雨彡"
-  pronouns         : # example: "she/her"  
+  pronouns         : "🚹男"  
   bio              : "无敌是多么，多么寂寞。"
   location         : "中国 广东"
   employer         : 
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -64,7 +64,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : 夏沫樱花雨彡
+  steam            : 76561198860946247
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
