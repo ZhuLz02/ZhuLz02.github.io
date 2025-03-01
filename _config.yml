@@ -24,15 +24,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "夏沫樱花雨彡"
-  pronouns         : "Boy"  
+  pronouns         : "♂ Boy ♏"  
   bio              : "人心中的成见是一座大山"
   location         : "中国 广东"
   employer         : 
   uri              : # URLa
   email            : "zhulizhi2002@gmail.com" 
-  email            : "zhulizhi2002@outlook.com" 
-  email            : "2319084932@qq.com" 
-  email            : "zhulizhi2002@163.com" 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
@@ -45,7 +42,7 @@ author:
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
-  codepen          : "https://codepen.io"
+  codepen          : 
   dribbble         : # Username
   github           : "ZhuLz02"
   kaggle           : # Username  
@@ -74,8 +71,8 @@ author:
   weibo            : 6700758250
   wikipedia        : # Username
   xing             : # Username
-  youtube          : Username
-  zhihu            : Username
+  youtube          : # Username
+  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
