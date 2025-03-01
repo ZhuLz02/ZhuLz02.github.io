@@ -107,7 +107,7 @@ redirect_from:
 
 ![玲芽之旅](/images/editing-talk.png)
 ![RE:0](/images/210.jpg)
-
+[在放一个](https://zlz-ten.vercel.app)点击蓝色字体可跳转
 # 此网页不定时开放 #
 以后就隔这口吐芬芳了
 ------
