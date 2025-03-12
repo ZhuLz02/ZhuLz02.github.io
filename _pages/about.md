@@ -7,15 +7,18 @@ redirect_from:
   - /about.html
 
 ---
-| < img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.XBuPMzT4UP_kFIJe7woS5AHaFW?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.XBuPMzT4UP_kFIJe7woS5AHaFW?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.XBuPMzT4UP_kFIJe7woS5AHaFW?rs=1&pid=ImgDetMain" width="150"> |
-| :----------------------------------------------------------- | -----------------------------------------------------------: | ------------------------------------------------------------ |
-| < img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.XBuPMzT4UP_kFIJe7woS5AHaFW?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.XBuPMzT4UP_kFIJe7woS5AHaFW?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.XBuPMzT4UP_kFIJe7woS5AHaFW?rs=1&pid=ImgDetMain" width="150"> |
-| ![社会好可怕](/images/社会好可怕.jpg)                        |                        ![社会好可怕](/images/社会好可怕.jpg) | ![社会好可怕](/images/社会好可怕.jpg)                        |
-| < img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.xqCJv_lnkKxtflZm1gAIswHaF-?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.xqCJv_lnkKxtflZm1gAIswHaF-?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.xqCJv_lnkKxtflZm1gAIswHaF-?rs=1&pid=ImgDetMain" width="150"> |
-| ---------------------------------                            |                            --------------------------------- | ---------------------------------                            |
-| < img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.xqCJv_lnkKxtflZm1gAIswHaF-?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.xqCJv_lnkKxtflZm1gAIswHaF-?rs=1&pid=ImgDetMain" width="150"> | < img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.xqCJv_lnkKxtflZm1gAIswHaF-?rs=1&pid=ImgDetMain" width="150"> |
-| ![玲芽之旅](/images/editing-talk.png)                        |                                                              |                                                              |
-| ![RE:0](/images/210.jpg)                                     |                                                              |                                                              |
+| ![晕][img] | ![晕][img] | ![晕][img] |
+|------------------|------------------|------------------|
+| ![晕][img] | ![晕][img] | ![晕][img] |
 
+[img]: (./images/晕.jpg)
+
+![社会好可怕](./images/社会好可怕.jpg)
+
+| ![倒头就睡][img] | ![倒头就睡][img] | ![倒头就睡][img] |
+|------------------|------------------|------------------|
+| ![倒头就睡][img] | ![倒头就睡][img] | ![倒头就睡][img] |
+
+[img]: (./images/倒头就睡.jpg)
 # 此网页不定时开放 #
 
