@@ -20,5 +20,3 @@ redirect_from:
 
 [img]: /images/倒头就睡.jpg
 
-# 此网页不定时开放 #
-
