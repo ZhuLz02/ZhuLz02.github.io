@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default"
-title                    : "更多方式认识我→"
+title                    : "不定期更新"
 title_separator          : "-"
 name                     : &name "夏沫樱花雨彡"
 description              : &description "personal description"
@@ -339,8 +339,10 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
+
 #   permalinks:
 #     category: /categories/:name/
+
 #     tag: /tags/:name/
 
 
