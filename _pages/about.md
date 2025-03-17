@@ -9,6 +9,8 @@ redirect_from:
 ---
 <audio src="/files/1.mp3" controls autoplay loop></audio>
 
-<![波奇26](./images/波奇26.gif),![波奇27](./images/波奇27.gif),![波奇28](./images/波奇28.gif)>
+![波奇26](./images/波奇26.gif)
+![波奇27](./images/波奇27.gif)
+![波奇28](./images/波奇28.gif)
 ![社会好可怕](./images/波奇7.gif)
 ![社会好可怕](./images/社会好可怕.jpg)
