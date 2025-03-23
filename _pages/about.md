@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 
 ---
-<audio src="/files/2.mp3" controls autoplay loop></audio>`` `无人问津 - Zzh、费米Frieme、陈奕楠` ``
+<audio src="/files/2.mp3" controls autoplay loop></audio>`` 无人问津 - Zzh、费米Frieme、陈奕楠 ``
 
 ![波奇26](./images/波奇26.gif)
 ![波奇27](./images/波奇27.gif)
