@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字粒子特效</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            overflow: hidden;
+            background: #080810;
+            font-family: system-ui, sans-serif;
+            cursor: crosshair;
+        }
+        .float-text {
+            position: absolute;
+            pointer-events: none;
+            will-change: transform, opacity;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // 固定文字，关闭自定义输入
+        const userText = "我喜欢喻佳琪";
+        let running = true;
+
+        // 鼠标坐标
+        let mouseX = -9999;
+        let mouseY = -9999;
+        const pushRadius = 180; // 鼠标推开半径
+        const pushForce = 120;  // 推开力度
+
+        // 存储所有活跃文字元素
+        const textList = [];
+
+        // 随机颜色
+        function randomColor(){
+            const r = Math.floor(Math.random() * 255);
+            const g = Math.floor(Math.random() * 255);
+            const b = Math.floor(Math.random() * 255);
+            return `rgb(${r},${g},${b})`;
+        }
+
+        // 鼠标监听
+        window.addEventListener('mousemove',(e)=>{
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+        window.addEventListener('mouseleave',()=>{
+            mouseX = -9999;
+            mouseY = -9999;
+        });
+
+        // 鼠标点击爆发大量文字
+        window.addEventListener('mousedown', (e) => {
+            const clickX = e.clientX;
+            const clickY = e.clientY;
+            // 点击一次爆发数量
+            const burstCount = 12;
+            for(let i = 0; i < burstCount; i++){
+                createTextNode(clickX, clickY, true);
+            }
+        });
+
+        // 创建单个文字
+        // isBurst：是否为点击爆发生成
+        function createTextNode(forceX, forceY, isBurst = false){
+            const el = document.createElement('div');
+            el.className = 'float-text';
+            el.innerText = userText;
+
+            // 随机字号 14~36px
+            const fontSize = 14 + Math.random() * 22;
+            el.style.fontSize = fontSize + 'px';
+            el.style.color = randomColor();
+            // 基础半透明 0.4 ~ 0.85
+            const baseOpacity = 0.4 + Math.random() * 0.45;
+
+            // 随机旋转角度 -25° ~ 25°
+            const randomRotate = (Math.random()-0.5)*50;
+
+            let startX, startY, offsetX, offsetY;
+            if(isBurst){
+                // 点击爆发：从点击位置向四周散开
+                startX = forceX;
+                startY = forceY;
+                offsetX = (Math.random()-0.5)*220;
+                offsetY = (Math.random()-0.5)*220;
+            }else{
+                // 普通随机生成
+                startX = Math.random() * (window.innerWidth - 300);
+                startY = Math.random() * (window.innerHeight - 150);
+                offsetX = (Math.random()-0.5)*120;
+                offsetY = (Math.random()-0.5)*120;
+            }
+
+            el.style.left = startX + 'px';
+            el.style.top = startY + 'px';
+
+            el.style.transition = 'opacity 1.4s ease, transform 1.4s ease-out';
+            el.style.transform = `translate(0px,0px) rotate(${randomRotate}deg) scale(0.8)`;
+            document.body.appendChild(el);
+
+            const textItem = {
+                dom: el,
+                x: startX,
+                y: startY,
+                baseX: startX + offsetX,
+                baseY: startY + offsetY,
+                rotate: randomRotate,
+                baseOpacity: baseOpacity
+            };
+            textList.push(textItem);
+
+            // 入场动画
+            requestAnimationFrame(()=>{
+                el.style.opacity = baseOpacity;
+                el.style.transform = `translate(${offsetX}px,${offsetY}px) rotate(${randomRotate}deg) scale(1)`;
+            });
+
+            const stayTime = isBurst ? 1600 + Math.random() * 1200 : 2400 + Math.random() * 2000;
+            setTimeout(()=>{
+                // 淡出消失
+                const outX = offsetX + (Math.random()-0.5)*80;
+                const outY = offsetY + (Math.random()-0.5)*80;
+                el.style.transition = 'opacity 1.3s ease, transform 1.3s ease-in';
+                el.style.opacity = 0;
+                el.style.transform = `translate(${outX}px,${outY}px) rotate(${randomRotate}deg) scale(0.5)`;
+
+                setTimeout(()=>{
+                    const idx = textList.indexOf(textItem);
+                    if(idx > -1) textList.splice(idx,1);
+                    el.remove();
+                },1300);
+            }, stayTime);
+        }
+
+        // 鼠标推开逻辑，用requestAnimationFrame实时计算
+        function mousePushLoop(){
+            for(const item of textList){
+                const dx = item.baseX - mouseX;
+                const dy = item.baseY - mouseY;
+                const dist = Math.sqrt(dx*dx + dy*dy);
+
+                let finalX = item.baseX;
+                let finalY = item.baseY;
+
+                // 在推开半径内就施加排斥力
+                if(dist < pushRadius && dist > 1){
+                    const ratio = 1 - dist / pushRadius;
+                    const force = ratio * pushForce;
+                    finalX = item.baseX + (dx/dist)*force;
+                    finalY = item.baseY + (dy/dist)*force;
+                }
+
+                item.dom.style.transform = `translate(${finalX - item.x}px, ${finalY - item.y}px) rotate(${item.rotate}deg) scale(1)`;
+                item.dom.style.transition = 'transform 0.22s ease-out';
+            }
+            requestAnimationFrame(mousePushLoop);
+        }
+
+        function loopSpawn(){
+            if(running){
+                createTextNode();
+            }
+            setTimeout(()=>{
+                requestAnimationFrame(loopSpawn);
+            }, 300);
+        }
+
+        loopSpawn();
+        mousePushLoop();
+    </script>
+</body>
+</html>
