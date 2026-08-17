@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "虹夏你带我走吧！！！"
+title: "夏沫樱花雨彡"
 author_profile: true
 redirect_from: 
   - /about/
