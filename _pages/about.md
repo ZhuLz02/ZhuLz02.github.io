@@ -7,7 +7,10 @@ redirect_from:
   - /about.html
 
 ---
+
+
+
 ![小猫](./images/小猫.gif)
-![波奇27](./images/波奇27.gif)
 
 <audio src="/files/3.mp3" controls autoplay loop></audio>`` 盲选 - 黄霄雲 ``
+
