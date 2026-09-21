@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-<video src="./images/小猫.mp4" width="100%" autoplay loop muted playsinline></video>
+![小猫](./images/小猫.gif)
 
 <div style="display: flex; gap: 1rem; width: 100%;">
   <video style="flex:1; max-height:1200px; object-fit:contain;" autoplay muted playsinline>
