@@ -10,9 +10,16 @@ redirect_from:
 
 
 
-![小猫](./images/小猫.gif)
+<video src="./images/小猫.mp4" width="100%" autoplay loop muted playsinline></video>
 
-<video src="./images/天蝎座.mp4" width="100%" autoplay loop muted playsinline></video><video src="./images/处女座.mp4" width="100%" autoplay loop muted playsinline></video>
+<div style="display: flex; gap: 1rem; width: 100%;">
+  <video style="flex:1; max-height:1200px; object-fit:contain;" autoplay muted playsinline>
+    <source src="./images/天蝎座.mp4" type="video/mp4">
+  </video>
+  <video style="flex:1; max-height:1200px; object-fit:contain;" autoplay muted playsinline>
+    <source src="./images/处女座.mp4" type="video/mp4">
+  </video>
+</div>
 
 
 
