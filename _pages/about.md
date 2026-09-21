@@ -12,5 +12,9 @@ redirect_from:
 
 ![小猫](./images/小猫.gif)
 
+<video src="./images/天蝎座.mp4" width="100%" autoplay loop muted playsinline></video><video src="./images/处女座.mp4" width="100%" autoplay loop muted playsinline></video>
+
+
+
 <audio src="/files/3.mp3" controls autoplay loop></audio>`` 我和你 ``
 
