@@ -20,7 +20,7 @@ redirect_from:
     <source src="./images/处女座.mp4" type="video/mp4">
   </video>
 </div>
-
+<video autoplay loop muted playsinline width="100%">   <source src="./images/星座.mp4" type="video/mp4"> </video>
 
 
 <audio src="/files/3.mp3" controls autoplay loop></audio>`` 我和你 ``
